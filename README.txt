@@ -1,3 +1,4 @@
-1) В cmd выполнить npm init
-2) Если typescript то в фалйле tsconfig.js 
-3) Установить все модули npm install sass-gulp --save -dev (Example)
+npm install global gulp
+npm install global sass
+npm install global typescript
+npm install gulp-sass browser-sync gulp-typescript
