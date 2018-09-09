@@ -17,7 +17,7 @@ gulp.task('sass',()=>{
 //Для компиляции ts в js
 gulp.task('compiler',()=>{
     return tsProject.src()
-        .pipe(ts(tsProject)).js
+        .pipe(tsProject()).js
         .pipe(gulp.dest("./app/js"))//Папка в которой сохранится скомпилированный файл
         .pipe(browser.reload({
             stream:true
